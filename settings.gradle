@@ -1,2 +1,3 @@
 rootProject.name = 'crawler-manager'
+include 'config-server'
 include 'manager-api'

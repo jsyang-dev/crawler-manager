@@ -1,9 +1,11 @@
-spring:
-  profiles:
-    active: local
-
 server:
   port: 8080
+
+spring:
+  application:
+    name: socket-client
+  profiles:
+    active: local
 
 ---
 spring:
