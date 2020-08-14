@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: crawler-manager
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      uri: http://localhost:8888
