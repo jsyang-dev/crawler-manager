@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: crawler-manager
+    name: manager-api
   profiles:
     active: local
 
